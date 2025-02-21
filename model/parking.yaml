@@ -1,0 +1,6 @@
+path: "/content/"
+train: split_dataset/train/images/ # Caminho para as imagens de treinamento
+val: split_dataset/val/images/ # Caminho para as imagens de validação (pode ser diferente se necessário)
+
+nc: 3 # Número de classes (ajuste conforme necessário)
+names: ["free_parking_space", "not_free_parking_space", "partially_free_parking_space "] # Nome das classes (baseado no arquivo parking.csv)
